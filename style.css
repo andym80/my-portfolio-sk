@@ -1,8 +1,157 @@
-.menu-ham {
+
+* {
+  margin: 0;
+  padding :0;
+}
+
+.container {
+  display: inline;
+  width: 320px;
+  align-content: column;
+}
+
+.navbar {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-end;
-  align-items: flex-start;
-  align-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.menu-ham {
+  display: block;
+  flex-shrink: 3;
+  flex-basis: flex-end;
+  order: 0;
+  margin-right: 19px;
+  margin-top:0px;
+}
+
+.name {
+  margin-left: 16px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-family: "Playfair Display";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: 50px;
+  color: #1A2236;
+  text-decoration: #000000 1px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+
+
+.section{
+  display:inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 288px;
+  height: 336px;
+}
+p {
+  display: flex;
+}
+.intro-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  color: #1A2236;
+  margin-left: 16px;
+  margin-right: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+text-align: left;
+
+}
+
+.start-collab-box{
+display: block;
+align-items: center;
+justify-items: center;
+width: 288px;
+height: 50px;
+left: 16px;
+top: 390px;
+background: #1A2236;
+margin-top: 40px;
+margin-bottom: 32.31px;
+margin-left: 16px;
+
+}
+
+.start-collab-btn {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  padding-top: 12px;
+  
+
+  
+  justify-content: center;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+.start-content{
+  
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin: auto;
+  }
+
+h2 {
+  display:inline-flex;
+  margin: 16px 123px 39.9px 32px;
+  font-family:  "Playfair Display", serif;
+  font-size: 50px;
+  color: #1A2236;
+  line-height: 50px;
+}
+
+.projects-1-text-box {
+  width: 320px;
+  height: 156px;
+  background: #1A2236;
+
+}
+.project-name {
+  width: 264px;
+  height: 16px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 80%;
+  color: white;
+}
+
+.projects-1-text-box {
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: #1A2236;
+align-content: flex-start;
+align-items: center;
+}
+
+.skills-box {
+  
+
+
 }
