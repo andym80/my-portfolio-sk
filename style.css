@@ -35,7 +35,7 @@
   font-weight: 400px;
   line-height: 50px;
   color: #1a2236;
-  border: 1px solid #000;
+  stroke: black 1px;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   text-align: left;
 }
