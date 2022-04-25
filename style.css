@@ -9,13 +9,13 @@
   flex-wrap: nowrap;
 }
 
-header {
-  display: flex;
-  align-items: flex-start;
-  background-image: url("images/image_geometry_1.png");
-  background-repeat: no-repeat;
-  width: 111px;
-  height: 74px;
+  header {
+    display: flex;
+    align-items: flex-start;
+    background-image: url("images/image_geometry_1.png");
+    background-repeat: no-repeat;
+    width: 111px;
+    height: 74px;
 }
 
 .menu-ham {
@@ -89,7 +89,7 @@ button {
   line-height: 24px;
   font-style: normal;
   background-color: #1a2236;
-  border: 0;
+  border: 0px;
   color: white;
   text-align: center;
   align-items: center;

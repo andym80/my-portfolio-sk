@@ -10,10 +10,20 @@
 ## Built With
 
 - HTML/CSS
-- Visual Studio Code
 - Flexbox
-- Figma
+- from Figma Template
 - responsive dimension 320x570
+## Getting Started
+Take index.html & style.css files on your code editor. This files are linked. 
+
+All images are into folder /images. 
+
+All linters file are:
+*.hintrc 
+*stylelintrc.json
+*package-lock.json
+*package.json
+*.github/workflows/linters.yml
 
 ## Authors
 
