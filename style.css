@@ -3,30 +3,30 @@
   padding: 0;
 }
 
-.container {
-  display: inline;
-  width: 320px;
-  align-content: column;
-}
-
 .navbar {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  align-content: flex-start;
+  flex-wrap: nowrap;
+
+}
+header {
+display: flex;
+align-items: flex-start;
+background-image: url("images/image_geometry_1.png");
+background-repeat: no-repeat;
+width: 111px;
+height: 74px;
+
 }
 
 .menu-ham {
-  display: block;
-  flex-shrink: 3;
-  flex-basis: flex-end;
-  order: 0;
-  margin-right: 19px;
+  display: flex;
+  padding-top: 19px;
+  padding-left: 284px;
 }
 
 .name {
+  display: flex;
   margin-left: 16px;
   margin-bottom: 20px;
   margin-top: 30px;
@@ -41,8 +41,8 @@
 }
 
 .section {
-  display: inline-flex;
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   width: 288px;
   height: 336px;
@@ -66,7 +66,7 @@ p {
 }
 
 .start-collab-box {
-  display: block;
+  display: flex;
   align-items: center;
   justify-items: center;
   width: 288px;
@@ -77,29 +77,34 @@ p {
   margin-top: 40px;
   margin-bottom: 32.31px;
   margin-left: 16px;
-}
-
-.start-collab-btn {
-  display: block;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  align-self: auto;
-  order: 0;
-  padding-top: 12px;
+  margin-right: 16px;
   justify-content: center;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  color: #fff;
+  
 }
+button {
+  flex: 1;
+  height: auto;
+  font-family: 'Poppins', serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  font-style: normal;
+  background-color: #1a2236;
+  border: 0px;
 
-.start-content {
-  text-decoration: none;
   color: white;
   text-align: center;
-  margin: auto;
+  align-items: center;
+  align-content: center;
+
+}
+
+ .art {
+  background-image: url("images/rectangle-section-1.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  vertical-align:bottom ;
+  width: 320px;
+  height: 160px;
+  
 }
