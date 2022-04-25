@@ -7,16 +7,15 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-
 }
-header {
-display: flex;
-align-items: flex-start;
-background-image: url("images/image_geometry_1.png");
-background-repeat: no-repeat;
-width: 111px;
-height: 74px;
 
+header {
+  display: flex;
+  align-items: flex-start;
+  background-image: url("images/image_geometry_1.png");
+  background-repeat: no-repeat;
+  width: 111px;
+  height: 74px;
 }
 
 .menu-ham {
@@ -79,8 +78,8 @@ p {
   margin-left: 16px;
   margin-right: 16px;
   justify-content: center;
-  
 }
+
 button {
   flex: 1;
   height: auto;
@@ -90,21 +89,18 @@ button {
   line-height: 24px;
   font-style: normal;
   background-color: #1a2236;
-  border: 0px;
-
+  border: 0;
   color: white;
   text-align: center;
   align-items: center;
   align-content: center;
-
 }
 
- .art {
+.art {
   background-image: url("images/rectangle-section-1.svg");
   background-repeat: no-repeat;
   background-position: bottom;
-  vertical-align:bottom ;
+  vertical-align: bottom;
   width: 320px;
   height: 160px;
-  
 }
